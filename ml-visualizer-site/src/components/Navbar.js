@@ -18,6 +18,9 @@ function Navbar() {
         <li className="nav-item">
           <Link to="/svm" className="nav-link">Support Vector Machines</Link>
         </li>
+        <li className="nav-item">
+          <Link to="/pca" className="nav-link">Process Component Analysis</Link>
+        </li>
       </ul>
     </nav>
   );

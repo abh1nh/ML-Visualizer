@@ -9,6 +9,7 @@ import Home from './components/Home.js';
 import LinReg from './components/LinReg';
 import NN from './components/NN.js';
 import SVM from './components/SVM.js';
+import PCA from './components/PCA.js';
 import Navbar from './components/Navbar.js';
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/linreg" element={<LinReg />} />
           <Route path="/nn" element={<NN />} />
           <Route path="/svm" element={<SVM />} />
+          <Route path="/pca" element={<PCA />} />
         </Routes>
       </div>
     </BrowserRouter>
